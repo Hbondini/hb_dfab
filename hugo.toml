@@ -1,3 +1,19 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://stapp-hb-dfab.azurestaticapps.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'HB_DFab: Carbon & Metal Exploration'
+theme = 'hb-theme'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # This allows us to embed the 3D Model Viewer later
+
+[menu]
+  [[menu.main]]
+    name = 'Research'
+    url = '/docs/'
+    weight = 1
+  [[menu.main]]
+    name = 'Project Log'
+    url = '/blog/'
+    weight = 2
