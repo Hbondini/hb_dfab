@@ -18,7 +18,7 @@ To democratize custom carbon fiber tubing, I needed a way to produce consistent,
 ---
 
 ## 1. Mechanical Design: The "Active Eye"
-Most DIY winders use a static delivery ring. This causes the fiber to twist and fray when winding high angles. I engineered a **3rd Axis (Active Delivery Eye)** that rotates in sync with the carriage direction.
+Most DIY winders use a static delivery ring. This causes the fiber to twist and lay unevenly on the mandrel when winding high angles. I engineered a **3rd Axis (Active Delivery Eye)** that rotates in sync with the carriage direction.
 
 <video width="100%" controls autoplay loop muted playsinline>
   <source src="/images/winder/winder-closeup.mov" type="video/mp4">
@@ -34,7 +34,7 @@ Most DIY winders use a static delivery ring. This causes the fiber to twist and 
 ---
 
 ## 2. The "Brain": Klipper & Electronics
-Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its ability to handle high-speed kinematics. Winding non-cylindrical shapes requires rapid acceleration changes, and Klipper's "Input Shaping" helps smooth out the vibration.
+Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its ability to handle high-speed kinematics as well as its easy to use ui.
 
 <video width="100%" controls muted playsinline>
   <source src="/images/winder/winder-wide.mov" type="video/mp4">
@@ -49,16 +49,15 @@ Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its abilit
 The hardest part of this build was the math. Initial tests showed "Pattern Drift," where the fibers would leave gaps after several rotations.
 
 ### The "Closed-Loop" Algorithm
-I wrote a custom **G-Code Generator** that runs in the browser. It calculates the **"Integer + Fraction"** ratio, dividing the mandrel circumference by the tow width (3mm) to find the exact number of passes needed.
+I wrote a custom **G-Code Generator** that runs in the browser. It calculates the **"Integer + Fraction"** ratio, dividing the mandrel circumference by the tow width to find the exact number of passes needed.
 
 > *"The code forces the machine to synchronize. After every Round Trip, the mandrel has rotated exactly One Integer Turn + One Bandwidth."*
 
 ---
 
 ## 4. Fabrication & Assembly
-The frame is built from 2020/2040 aluminum extrusions. All custom brackets were printed in **ASA** to withstand the mechanical stress of the tensioner (approx 2kg load).
+The frame is built from aluminum extrusions. All custom brackets were printed in **PETG**.
 
 * **Wiring:** Custom crimped looms for the NEMA 23 motors.
-* **Tensioner:** A spring-loaded dancer arm maintains constant tension on the carbon tow.
 
 *You can view the full G-Code Generator tool in the [Project Docs](/docs/02-winder-engineering).*
