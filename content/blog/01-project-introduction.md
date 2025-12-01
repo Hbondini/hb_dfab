@@ -1,7 +1,7 @@
 ---
 title: "HB_DFab: Bridging the Gap in Custom Bicycle Manufacturing"
 date: 2024-03-24
-description: "Why I am building a custom filament winder to lower the barrier to entry for custom carbon fiber frames."
+description: Project introduction and outline"
 tags: ["Filament Winding", "Industry Analysis", "Process Engineering", "Capstone"]
 author: "Harley Bondini"
 type: "blog"
@@ -25,7 +25,7 @@ Many independent builders specialize in steel, aluminum, or titanium. This invol
 ### 2. The Carbon Route (Performance at a Price)
 Carbon fiber is the superior material for performance tuning, but it comes at an exorbitant cost. Creating custom molds for an individual rider is incredibly time-consuming and expensive, pushing the price of a single custom carbon frame well over **$10,000**.
 
-## The Engineering Thesis
+## The design Thesis
 My capstone project, **HB_DFab**, aims to break this compromise.
 
 I am working to **lower the cost of entry** for custom carbon bicycle manufacturing. My goal is to automate the labor-intensive parts of the process using a range of novel methods and machines built entirely in-house.
