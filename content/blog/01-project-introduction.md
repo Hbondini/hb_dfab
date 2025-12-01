@@ -1,8 +1,8 @@
 ---
-title: "The Exploration of Modern Fabrication Techniques with Carbon Fibre and Metal through Bikes"
+title: "HB_DFab: Bridging the Gap in Custom Bicycle Manufacturing"
 date: 2024-03-24
-description: "Challenging the dichotomy of the custom bicycle market through automated filament winding and hybrid construction."
-tags: ["Filament Winding", "Market Analysis", "Process Engineering", "Capstone"]
+description: "Why I am building a custom filament winder to lower the barrier to entry for custom carbon fiber frames."
+tags: ["Filament Winding", "Industry Analysis", "Process Engineering", "Capstone"]
 author: "Harley Bondini"
 type: "blog"
 layout: "single"
@@ -10,41 +10,34 @@ draft: false
 ---
 
 ## The Motivation
-I am a cyclist first. My passion runs deep and spans every discipline, from tarmac to trail. But the more I ride, the more I realize that modern bicycle design often fails the rider.
+I am a cyclist first. Having worked in the industry for years, I have developed a deep love for all things cycling. For me, the joy isn't just in the act of riding; it’s in fixing, customizing, and talking shop with friends.
 
-The industry prioritizes speed and stiffness above all else. If you don't fit the standard mold, you are often pigeonholed into two extremes: **Custom Steel** (accessible but heavy) or **Custom Carbon** (exorbitantly expensive).
+However, the current direction of the bicycle industry has become frustrating. The major brands are in a relentless pursuit of "performance" defined solely by the professional racer. While this sells bikes, it has taken bicycle design down a path that fails the general rider. Modern bikes are becoming harder to fix, harder to fit, and harder to customize.
 
-I believe there is a better way. My capstone project, **HB_DFab**, aims to show that the custom bike-making process—currently very labor-intensive—can be democratized through process automation.
+While the big brands chase aerodynamics and stiffness at the cost of usability, small independent builders offer an alternative, but this alternative brings its own compromises.
 
-## The Engineering Thesis: "Mass Customization"
-My approach separates the bicycle frame into two distinct manufacturing streams to achieve customization without the cost:
+## The Compromise: Metal vs. Carbon
+If you want a bike built specifically for you today, you are largely forced into a binary choice:
 
-### 1. The Tubes: Standardization
-I am utilizing **Filament Winding** to completely standardize the tube manufacturing process. By using a single machine and a single set of molds, I can produce high-performance carbon tubing of any length. Custom sizing becomes as simple as cutting the tube to a different length, with no additional tooling required.
+### 1. The Metal Route (Accessible but Limited)
+Many independent builders specialize in steel, aluminum, or titanium. This involves welding or brazing pre-made tubes. This is a beautiful craft that allows for custom geometry, but it is limited by the material properties. You cannot tune the ride quality of a steel tube the way you can a composite structure.
 
-### 2. The Lugs: Digital Flexibility
-Carbon fiber struggles with complex junctions; metal excels at them. By utilizing **Metal Powder Casting** and **3D Printing**, I can generate custom lug geometries digitally. This allows for unique angles and fits without incurring the massive tooling costs associated with traditional molds.
+### 2. The Carbon Route (Performance at a Price)
+Carbon fiber is the superior material for performance tuning, but it comes at an exorbitant cost. Creating custom molds for an individual rider is incredibly time-consuming and expensive, pushing the price of a single custom carbon frame well over **$10,000**.
 
----
+## The Engineering Thesis
+My capstone project, **HB_DFab**, aims to break this compromise.
 
-## The "Process" Obsession
-I chose to build my own 4-axis filament winder rather than buying one. This was a strategic decision driven by two factors:
+I am working to **lower the cost of entry** for custom carbon bicycle manufacturing. My goal is to automate the labor-intensive parts of the process using a range of novel methods and machines built entirely in-house.
 
-1.  **Cost & Accessibility:** Proving that advanced composite manufacturing doesn't require six-figure equipment.
-2.  **Mastery:** I want intimate knowledge of the machinery. I need to understand every variable that goes into the composite structure, rather than being an operator who just "knows how to press the go button".
+### The Approach
+My manufacturing system relies on three methods to achieve this goal:
 
-This project is not just an academic exercise; it is the foundation of knowledge required to potentially build a business in the future.
-
----
-
-## The Risks (Technical Debt)
-This is an ambitious R&D project, and the path is not clear. My current engineering concerns include:
-
-* **Winder Reliability:** The machine is not yet running at 100% reliability. The current winding pattern leaves gaps in the layers, requiring a rewrite of the G-code generation algorithm to ensure full coverage.
-* **Mold Failure:** I am experimenting with 3D printed molds (HT-PLA-GF) utilizing trapped-rubber silicone expansion. There is a significant risk that the silicone pressure will cause the printed molds to split apart or deform, leading to wasted time and materials.
-* **Bond Integrity:** The ultimate question is safety. Will the metal lugs bond correctly to the carbon tubes? Will the tolerances of the powder casting be precise enough? The bike must not only look aesthetically pleasing but be safe to ride.
+1.  **Automated Filament Winding:** I have designed and built a 3-axis filament winder to produce carbon tubing. This allows me to tune the stiffness and compliance of the frame via code rather than manual layup, standardizing the process while allowing for infinite length variations.
+2.  **Trapped Rubber Molding:** Moving away from expensive metal molds, I am utilizing 3D printed tooling paired with heat-expanding silicone mandrels to consolidate the composite parts.
+3.  **Hybrid Metal Lugs:** By utilizing **Metal Powder Casting** for the junctions, I can create complex, custom geometries without the tooling costs of traditional manufacturing.
 
 ## The End Game
-The goal is to produce a fully finished, rideable prototype that validates this hybrid manufacturing ecosystem.
+This project is about proving that we don't have to choose between "Custom Metal" and "Expensive Carbon." By building the machines myself and validating these hybrid techniques, I want to demonstrate a workflow where high-performance, custom-geometry bikes are accessible, repairable, and built for the rider—not just the racer.
 
-*Follow the development log as I debug the code, anneal the molds, and cast the metal.*
+*Follow the development log as I build the machines that build the bike.*
