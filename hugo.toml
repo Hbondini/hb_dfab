@@ -1,6 +1,6 @@
 baseURL = 'https://stapp-hb-dfab.azurestaticapps.net/'
 languageCode = 'en-us'
-title = 'HB_DFab: Carbon & Metal Exploration'
+title = 'The Exploration of Modern Fabrication Techniques with Carbon Fibre and Metal through Bikes'
 theme = 'hb-theme'
 
 [markup]
