@@ -1,0 +1,47 @@
+---
+title: "The Exploration of Modern Fabrication Techniques with Carbon Fibre and Metal through Bikes"
+date: 2024-03-24
+description: "Challenging the dichotomy of the custom bicycle market through automated filament winding and hybrid construction."
+tags: ["Filament Winding", "Market Analysis", "Process Engineering", "Capstone"]
+author: "Harley Bondini"
+---
+
+## The Motivation
+I am a cyclist first. My passion runs deep and spans every discipline, from tarmac to trail. But the more I ride, the more I realize that modern bicycle design often fails the rider.
+
+The industry prioritizes speed and stiffness above all else. If you don't fit the standard mold, you are often pigeonholed into two extremes: **Custom Steel** (accessible but heavy) or **Custom Carbon** (exorbitantly expensive).
+
+I believe there is a better way. [cite_start]My capstone project, **HB_DFab**, aims to show that the custom bike-making process—currently very labor-intensive—can be democratized through process automation[cite: 3].
+
+## The Engineering Thesis: "Mass Customization"
+My approach separates the bicycle frame into two distinct manufacturing streams to achieve customization without the cost:
+
+### 1. The Tubes: Standardization
+I am utilizing **Filament Winding** to completely standardize the tube manufacturing process. By using a single machine and a single set of molds, I can produce high-performance carbon tubing of any length. [cite_start]Custom sizing becomes as simple as cutting the tube to a different length, with no additional tooling required[cite: 3].
+
+### 2. The Lugs: Digital Flexibility
+Carbon fiber struggles with complex junctions; metal excels at them. By utilizing **Metal Powder Casting** and **3D Printing**, I can generate custom lug geometries digitally. [cite_start]This allows for unique angles and fits without incurring the massive tooling costs associated with traditional molds[cite: 3].
+
+---
+
+## The "Process" Obsession
+I chose to build my own 4-axis filament winder rather than buying one. This was a strategic decision driven by two factors:
+
+1.  **Cost & Accessibility:** proving that advanced composite manufacturing doesn't require six-figure equipment.
+2.  **Mastery:** I want intimate knowledge of the machinery. [cite_start]I need to understand every variable that goes into the composite structure, rather than being an operator who just "knows how to press the go button"[cite: 3].
+
+[cite_start]This project is not just an academic exercise; it is the foundation of knowledge required to potentially build a business in the future[cite: 3].
+
+---
+
+## The Risks (Technical Debt)
+This is an ambitious R&D project, and the path is not clear. My current engineering concerns include:
+
+* **Winder Reliability:** The machine is not yet running at 100% reliability. [cite_start]The current winding pattern leaves gaps in the layers, requiring a rewrite of the G-code generation algorithm to ensure full coverage[cite: 3].
+* **Mold Failure:** I am experimenting with 3D printed molds (HT-PLA-GF) utilizing trapped-rubber silicone expansion. [cite_start]There is a significant risk that the silicone pressure will cause the printed molds to split apart or deform, leading to wasted time and materials[cite: 3].
+* **Bond Integrity:** The ultimate question is safety. Will the metal lugs bond correctly to the carbon tubes? Will the tolerances of the powder casting be precise enough? [cite_start]The bike must not only look aesthetically pleasing but be safe to ride[cite: 3].
+
+## The End Game
+The goal is to produce a fully finished, rideable prototype that validates this hybrid manufacturing ecosystem.
+
+*Follow the development log as I debug the code, anneal the molds, and cast the metal.*
