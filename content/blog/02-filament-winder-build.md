@@ -12,7 +12,7 @@ draft: false
 # The Goal
 To democratize custom carbon fiber tubing, I needed a way to produce consistent, high-performance laminates without the $50,000 price tag of industrial winders. My solution was to engineer a **3-Axis Filament Winder** from the ground up.
 
-![ The Finished Machine ](/images/winder/winder-hero.jpg)
+![ The Finished Machine ](/images/winder/winder-hero.jpeg)
 *The machine in operation, laying a ±45° helical pattern on a mandrel.*
 
 ---
