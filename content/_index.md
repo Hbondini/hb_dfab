@@ -8,9 +8,9 @@ title: "HB_DFab"
 ## Featured Projects
 
 {{< cards >}}
-  {{< card link="/projects/02-filament-winder-build/" title="The 3-Axis Filament Winder" icon="cpu" >}}
-  {{< card link="/projects/01-project-introduction/" title="The Engineering Thesis" icon="book-open" >}}
-  {{< card link="/docs/" title="Technical Research" icon="beaker" >}}
+  {{< card link="/projects/02-filament-winder-build/" title="The 3-Axis Filament Winder" >}}
+  {{< card link="/projects/01-project-introduction/" title="The Engineering Thesis" >}}
+  {{< card link="/docs/" title="Technical Research" >}}
 {{< /cards >}}
 
 ## Core Technologies
