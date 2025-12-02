@@ -1,6 +1,6 @@
 ---
 title: "HB_DFab: Bridging the Gap in Custom Bicycle Manufacturing"
-description: Project introduction and outline"
+description: Project introduction and outline
 tags: ["Filament Winding", "Industry Analysis", "Process Engineering", "Capstone"]
 author: "Harley Bondini"
 type: "blog"
