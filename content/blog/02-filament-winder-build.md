@@ -1,6 +1,5 @@
 ---
 title: "Machine Design: The 3-Axis Filament Winder"
-date: 2024-03-25
 description: "Designing, building, and programming a custom CNC machine for automated composite fabrication."
 tags: ["Machine Design", "Klipper", "Python", "Composites"]
 author: "Harley Bondini"
