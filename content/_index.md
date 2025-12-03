@@ -9,7 +9,7 @@ title: "HB_DFab"
 
 {{< cards >}}
   {{< card link="/projects/02-filament-winder-build/" title="The 3-Axis Filament Winder" >}}
-  {{< card link="/projects/01-project-introduction/" title="The Engineering Thesis" >}}
+  {{< card link="/projects/01-project-introduction/" title="The design brief" >}}
   {{< card link="/docs/" title="Technical Research" >}}
 {{< /cards >}}
 
