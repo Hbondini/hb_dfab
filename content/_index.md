@@ -3,7 +3,7 @@ title: "HB_DFab"
 ---
 
 # Automated Custom Bicycle Manufacturing
-**HB_DFab** is an engineering thesis exploring the intersection of filament winding, digital fabrication, and hybrid metallurgy.
+**HB_DFab** is a design student exploring the intersection of digital fabrication, advanced machining, filament winding, composite manufacturing, and powder metal casting.
 
 ## Featured Projects
 
