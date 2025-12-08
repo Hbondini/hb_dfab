@@ -3,9 +3,9 @@ title: "Harley Bondini"
 description: "Design & Fabrication Portfolio"
 ---
 
-<section style="margin-top: 0rem; margin-bottom: 3rem;">
+<section style="margin-top: 0rem; margin-bottom: 3rem; text-align: center;">
 <h2 style="font-weight: 300; opacity: 0.8; margin-top: 0; font-size: 1.8rem;">Advanced Manufacturing & Design</h2>
-<div style="margin-top: 1.5rem; max-width: 700px; font-size: 1.1rem; line-height: 1.6;">
+<div style="margin-top: 1.5rem; max-width: 700px; font-size: 1.1rem; line-height: 1.6; margin-left: auto; margin-right: auto;">
 <p>I am a design student working beyond the screen, focusing on the practical application of digital fabrication. My process bridges the gap between product design, machine operation, and the finished result.</p>
 </div>
 </section>
