@@ -1,6 +1,6 @@
-baseURL = 'https://stapp-hb-dfab.azurestaticapps.net/'
+baseURL = 'https://www.hbdfab.com/' # Updated to your new custom domain
 languageCode = 'en-us'
-title = 'The Exploration of Modern Fabrication Techniques with Carbon Fibre and Metal through Bikes'
+title = 'Harley Bondini' # Changed from the long sentence to your Name/Brand
 theme = 'hb-theme'
 
 [markup]
