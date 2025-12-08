@@ -1,0 +1,124 @@
+# Project: ICS Light Cubes
+## Modular Illumination Ecosystem
+**Presenter:** Harley Bondini
+
+---
+
+### Slide 1: The Hook
+**Headline:** ICS Light Cubes: Modular Illumination Ecosystem
+**Subtitle:** A reconfigurable lighting solution designed for adaptive environments.
+**Key Capability:** Scalable form factor, transition from single task light to linear arrays in seconds.
+
+**Visual Layout:**
+* **Split Screen:** Left side shows a single cube lighting a small workspace. Right side shows three cubes magnetically connected, lighting a wider area.
+
+---
+
+### Slide 2: The Problem
+**Headline:** The Limitations of Static Home Lighting
+
+**Body Text:**
+* **Overhead Lighting:** Often creates an intense and stimulating environment through excessive brightness.
+* **Traditional Ambient Solutions:** Lamps remain restricted by power cords and fixed locations.
+* **Portable Options:** Hampered by charging requirements and rarely blend naturally with modern decor.
+
+**Visual Layout:**
+* **Column 1:** Photo of harsh overhead fluorescent lighting.
+* **Column 2:** Photo of messy power cords tangling behind a floor lamp.
+* **Column 3:** Photo of a utilitarian plastic camping lantern sitting awkwardly on a nice wooden table.
+
+---
+
+### Slide 3: The Logic
+**Headline:** Contact-Based Power Architecture
+
+**Body Text:**
+* **The Docking Interface:** Power transmission relies on a spring-loaded pogo pin interface that establishes a zero-latency electrical connection immediately upon docking.
+* **The Optical Unit:** Internal geometry consists of a quad-array LED configuration housed within a composite wood and diffuser enclosure to ensure uniform light distribution.
+* **Distributed Ecosystem:** A network of powered bases allows the optical unit to migrate seamlessly between single-point docks and linear multi-unit arrays without manual cable management.
+
+**Visual Layout:**
+* **Left Side:** Exploded view diagram showing the Base (Male Pins) and Cube (Female Pins).
+* **Right Side:** A room map showing "One Cube, Many Bases" locations.
+
+---
+
+### Slide 4: Concept Evolution
+**Headline:** Design Philosophy and Form Finding
+
+**Body Text:**
+* **Minimalist Integration:** The geometric cube profile was selected to mimic existing interior elements like nightstands or architectural blocks, prioritizing environmental blending over technical aesthetics.
+* **Tangible Interaction:** We eliminated traditional switches in favor of specific placement control, where the physical act of docking the unit serves as the intuitive trigger for illumination.
+* **Orthogonal Scalability:** The flat-sided geometry enables the system to scale linearly without gaps, allowing multiple units to align visually and functionally into a cohesive light bar.
+
+**Visual Layout:**
+* **Top Row:** Early sketches of rejected shapes (cylinders, spheres).
+* **Bottom Row:** Storyboard showing a hand picking up the light (off) and placing it on a base (on).
+
+---
+
+### Slide 5: Physical Prototyping
+**Headline:** Iterative Form Validation
+
+**Body Text:**
+* **Scaled Volumetric Analysis:** Rapid additive manufacturing of miniature form factors allowed for immediate assessment of geometric proportions and stacking modularity without material waste.
+* **Full-Scale Verification:** Transitioning to 1:1 scale PLA models provided critical data on the physical presence of the unit within a room and validated the ergonomic interaction of the docking mechanism.
+* **Tolerance Tuning:** Iterative printing at full scale ensured the internal void space was sufficient for the electronics package before committing to the final subtractive manufacturing process.
+
+**Visual Layout:**
+* **Timeline:** A gradient image showing tiny test prints on the left evolving into the final full-scale white prototypes on the right.
+
+---
+
+### Slide 6: Design for Serviceability
+**Headline:** Internal Retention Logic
+
+**Body Text:**
+* **The Serviceability Mandate:** To ensure longevity and repairability, the enclosure required a fastening method that permitted rapid disassembly without visible screws or permanent adhesives.
+* **Industrial Inspiration:** Research into architectural panel mounting systems identified the Fastmount friction-clip geometry as the ideal reference for hidden, repeatable attachment.
+* **Iterative Tolerance Tuning:** Developing a custom 3D printed equivalent required extensive trial and error to dial in the snap-fit tolerances, resulting in a reliable center-clip system that holds the assembly under tension.
+
+**Visual Layout:**
+* **Left Side:** Photo/Render of the Fastmount clip system inspiration.
+* **Right Side:** Photo of failed 3D printed clip iterations next to the final functional part.
+
+---
+
+### Slide 7: Hybrid Manufacturing Strategy
+**Headline:** Material Synthesis and Assembly
+
+**Body Text:**
+* **Subtractive Precision:** The primary housing is machined from Douglas Fir using a CNC router, requiring complex multi-stage toolpaths to excavate specific pockets and profiles for the internal architecture.
+* **High-Fidelity Diffusion:** To achieve a smooth surface finish without visible layer lines, the central optical diffuser is produced using Stereolithography (SLA) resin printing rather than standard FDM methods.
+* **Internal Isolation:** Custom 3D printed cable guides were engineered and installed within the wooden base to physically isolate the high-current wiring from the organic chassis and ensure electrical safety.
+
+**Visual Layout:**
+* **Left Side:** Photo of the CNC router cutting pockets into Douglas Fir.
+* **Right Side:** Photo of the raw SLA resin print next to the polished final diffuser.
+
+---
+
+### Slide 8: Manufacturing Retrospective
+**Headline:** Process Optimization and Quality Control
+
+**Body Text:**
+* **Material Stock Validation:** Early machining failures and wood splitting revealed the critical influence of undetected grain fractures in Douglas Fir, establishing the need for rigorous stock inspection prior to CAM execution.
+* **Setup Reduction Strategy:** To eliminate the registration errors inherent in dual-sided flip machining, the geometric design was altered to utilize single-setup "through-bores" that guaranteed vertical alignment.
+* **Surface Treatment Protocols:** The finishing phase identified significant workflow bottlenecks regarding solvent entrapment in the clear coat, requiring a transition to thinner application layers and graduated sanding schedules to achieve a void-free surface.
+
+**Visual Layout:**
+* **Left Side:** Photo of a split/failed wood piece from the CNC.
+* **Right Side:** Comparison of the failed "Flip Cut" vs. the successful "Through-Hole" design.
+
+---
+
+### Slide 9: Future Development
+**Headline:** Design Refinement and Production Scaling
+
+**Body Text:**
+* **Mechanical Fastening Evolution:** Future iterations will eliminate structural adhesives in favor of threaded fasteners for both the LED arrays and the internal clip interfaces to maximize serviceability and component lifespan.
+* **Process Standardization:** To transition from single-unit prototyping to viable low-volume commercial production, the CNC workflow requires the development of dedicated fixtures and optimized toolpaths to drastically reduce setup latency.
+
+**Visual Layout:**
+* **Left Side:** Exploded view sketch showing screws replacing glue points.
+* **Right Side:** "Batch Mode" diagram showing multiple wood blocks nested on a CNC bed.
