@@ -1,15 +1,13 @@
 ---
-title: "Machine Design: The 3-Axis Filament Winder"
+title: "Machine Design: 3-Axis Filament Winder"
 description: "Designing, building, and programming a custom CNC machine for automated composite fabrication."
-tags: ["Machine Design", "Klipper", "Python", "Composites"]
-author: "Harley Bondini"
-type: "blog"
-layout: "single"
+tags: ["Machine Design", "Klipper", "Composites"]
+image: "/images/winder/winder-hero.jpeg"
 draft: false
 ---
 
 # The Goal
-To democratize custom carbon fiber tubing, I needed a way to produce consistent, high-performance laminates without the $50,000 price tag of industrial winders. My solution was to engineer a **3-Axis Filament Winder** from the ground up.
+To democratize custom carbon fiber tubing for the **HB_DFab Capstone**, I needed a way to produce consistent, high-performance laminates without the $50,000 price tag of industrial winders. My solution was to engineer a **3-Axis Filament Winder** from the ground up.
 
 ![ The Finished Machine ](/images/winder/winder-hero.jpeg)
 *The machine in operation, laying a ±45° helical pattern on a mandrel.*
@@ -21,7 +19,6 @@ Most DIY winders use a static delivery ring. This causes the fiber to twist and 
 
 <video width="100%" controls autoplay loop muted playsinline>
   <source src="/images/winder/winder-closeup.mov" type="video/mp4">
-  <source src="/images/winder/winder-closeup.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 *Close-up of the Z-Axis rotating the eyelet to keep the carbon tow flat against the mandrel.*
@@ -33,11 +30,10 @@ Most DIY winders use a static delivery ring. This causes the fiber to twist and 
 ---
 
 ## 2. The "Brain": Klipper & Electronics
-Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its ability to handle high-speed kinematics as well as its easy to use ui.
+Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its ability to handle high-speed kinematics.
 
 <video width="100%" controls muted playsinline>
   <source src="/images/winder/winder-wide.mov" type="video/mp4">
-  <source src="/images/winder/winder-wide.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 *The full motion system running a dry-wind test pattern.*
@@ -45,18 +41,6 @@ Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its abilit
 ---
 
 ## 3. The Logic: Solving "Pattern Drift"
-The hardest part of this build was the math. Initial tests showed "Pattern Drift," where the fibers would leave gaps after several rotations.
+The hardest part of this build was the math. Initial tests showed "Pattern Drift," where the fibers would leave gaps after several rotations. I wrote a custom **G-Code Generator** that calculates the **"Integer + Fraction"** ratio to lock the pattern.
 
-### The "Closed-Loop" Algorithm
-I wrote a custom **G-Code Generator** that runs in the browser. It calculates the **"Integer + Fraction"** ratio, dividing the mandrel circumference by the tow width to find the exact number of passes needed.
-
-> *"The code forces the machine to synchronize. After every Round Trip, the mandrel has rotated exactly One Integer Turn + One Bandwidth."*
-
----
-
-## 4. Fabrication & Assembly
-The frame is built from aluminum extrusions. All custom brackets were printed in **PETG**.
-
-* **Wiring:** Custom crimped looms for the NEMA 23 motors.
-
-*You can view the full G-Code Generator tool in the [Project Docs](/docs/02-winder-engineering).*
+> *You can view the full G-Code Generator tool and try the math yourself in the [Project Docs](/docs/02-winder-engineering).*

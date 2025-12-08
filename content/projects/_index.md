@@ -1,7 +1,7 @@
 ---
-title: "Selected Works"
-date: 2024-01-01
-description: "A chronological archive of fabrication logs, design studies, and engineering challenges."
+title: "Project Portfolio"
+description: "A collection of design studies, and fabrication projects."
+layout: "list"
 ---
 
-_Documenting the bridge between digital design and physical manufacturing._
+Welcome to the lab. Below is a collection of my recent work in digital fabrication and product design.

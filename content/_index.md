@@ -3,22 +3,19 @@ title: "Harley Bondini"
 description: "Design & Fabrication Portfolio"
 ---
 
-<section style="margin-top: 0rem; margin-bottom: 3rem; text-align: center;">
+<section style="margin-top: 0rem; margin-bottom: 4rem; text-align: center;">
 <h2 style="font-weight: 300; opacity: 0.8; margin-top: 0; font-size: 1.8rem;">Advanced Manufacturing & Design</h2>
-</section>
-
-<section style="margin-bottom: 4rem; padding: 2rem; background: rgba(0,0,0,0.03); border-radius: 8px;">
-<span style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: bold; opacity: 0.6;">Current Capstone Development</span>
-<h2 style="margin-top: 0.5rem;">The HB_DFab Carbon Fiber Project</h2>
-<p>Designing and fabricating a custom carbon fiber bicycle frame using a homemade 3-axis filament winder and trapped-rubber molding techniques.</p>
-<a href="/projects/01-project-introduction/" style="display: inline-block; margin-top: 1rem; padding: 10px 20px; background: #000; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Read the Development Log →</a>
+<p style="max-width: 600px; margin: 1rem auto; opacity: 0.7;">
+I am a design student working beyond the screen, bridging the gap between digital theory and physical reality. My work focuses on the practical application of advanced fabrication systems.
+</p>
 </section>
 
 <section>
-<h3>Design projects</h3>
-{{< cards >}}
-{{< card link="/projects/02-filament-winder-build/" title="Machine Design: 3-Axis Winder" >}}
-{{< card link="/docs/02-winder-engineering/" title="Algorithm: G-Code Generator" >}}
-{{< card link="/projects/03-ics-light-cubes/" title="ICS Light Cubes" >}}
-{{< /cards >}}
+  <h3 style="text-align: center; margin-bottom: 2rem; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; opacity: 0.5;">Selected Works</h3>
+  
+  {{< cards >}}
+    {{< card link="/projects/01-project-introduction/" title="HB_DFab: Custom Carbon Ecosystem" image="/images/bike-hero.jpg" subtitle="Capstone: Process Engineering & Composites" >}}
+
+    {{< card link="/projects/03-ics-light-cubes/" title="ICS Light Cubes" image="/images/cubes-hero.jpg" subtitle="Product Design: Modular Lighting" >}}
+  {{< /cards >}}
 </section>

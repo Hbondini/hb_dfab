@@ -44,11 +44,11 @@ To achieve a smooth surface finish without visible layer lines, the central opti
 ### The "Flip Cut" Failure
 Early machining attempts resulted in critical failures due to registration errors when flipping the stock.
 * **The Problem:** Wood grain fractures and misalignment during dual-sided machining.
-* **The Fix:** Switched to a single-setup "through-bore" design strategy to guarantee vertical alignment and reduce setup latency.
+* **The Fix:** Switched to a single-setup "through-bore" design strategy to guarantee vertical alignment.
 
 ### Internal Retention
 * **Challenge:** The enclosure needed to be repairable (no glue).
-* **Solution:** Engineered a custom 3D-printed friction-clip system, inspired by industrial Fastmount clips, to hold the assembly under tension while allowing disassembly.
+* **Solution:** Engineered a custom 3D-printed friction-clip system to hold the assembly under tension while allowing disassembly.
 
 ---
 
