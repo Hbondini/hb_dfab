@@ -1,0 +1,54 @@
+---
+title: "ICS Light Cubes"
+date: 2024-03-21
+description: "A modular, reconfigurable lighting ecosystem designed for adaptive environments."
+---
+
+<div style="margin-bottom: 2rem; padding: 1.5rem; background: #f4f4f4; border-radius: 8px; border-left: 5px solid #000;">
+    <h3 style="margin-top: 0;">Presentation Deck</h3>
+    <p>View the full engineering breakdown and fabrication process.</p>
+    <a href="#" style="display: inline-block; padding: 12px 24px; background: #000; color: white; text-decoration: none; font-weight: bold; border-radius: 4px;">
+        📥 Download Slide Deck (.pptx)
+    </a>
+</div>
+
+## Project Executive Summary
+**ICS Light Cubes** represent a shift in portable illumination. By utilizing a pogo-pin docking architecture, this system eliminates the binary choice between "fixed overhead lighting" and "temporary portable lamps."
+
+---
+
+## 1. The Engineering Logic
+### Contact-Based Power Architecture
+The core innovation is the removal of manual switching.
+* **The Docking Interface:** Power transmission relies on a spring-loaded pogo pin interface.
+* **Zero Latency:** Connection is established immediately upon docking.
+* **Distributed Ecosystem:** A network of powered bases allows the optical unit to migrate seamlessly between single-point docks and linear multi-unit arrays.
+
+---
+
+## 2. Fabrication Process
+### Hybrid Manufacturing Strategy
+The production workflow combines subtractive precision with additive complexity.
+
+**1. Subtractive (CNC Machining)**
+The primary housing is machined from **Douglas Fir** using a CNC router. This required complex multi-stage toolpaths to excavate specific pockets for the internal electronics.
+
+**2. Additive (SLA Printing)**
+To achieve a smooth surface finish without visible layer lines, the central optical diffuser is produced using **Stereolithography (SLA)** resin printing rather than standard FDM methods.
+
+---
+
+## 3. Failure Analysis & Iteration
+### The "Flip Cut" Failure
+Early machining attempts resulted in critical failures due to registration errors when flipping the stock.
+* **The Problem:** Wood grain fractures and misalignment during dual-sided machining.
+* **The Fix:** Switched to a single-setup "through-bore" design strategy to guarantee vertical alignment and reduce setup latency.
+
+### Internal Retention
+* **Challenge:** The enclosure needed to be repairable (no glue).
+* **Solution:** Engineered a custom 3D-printed friction-clip system, inspired by industrial Fastmount clips, to hold the assembly under tension while allowing disassembly.
+
+---
+
+## 4. Final Prototype Gallery
+*(Drag and drop your photos of the wood cubes here!)*
