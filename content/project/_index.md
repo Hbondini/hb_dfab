@@ -77,7 +77,7 @@ description: "The design and fabrication portfolio of Harley Bondini."
 <section style="margin-top: 5rem;">
     <h3>Latest Technical Logs</h3>
     {{< cards >}}
-      {{< card link="/projects/02-filament-winder-build/" title="Machine Design: The Winder" icon="cpu" >}}
-      {{< card link="/docs/02-winder-engineering/" title="Algorithm: G-Code Generator" icon="code" >}}
+      {{< card link="/projects/02-filament-winder-build/" title="Machine Design: The Winder" >}}
+      {{< card link="/docs/02-winder-engineering/" title="Algorithm: G-Code Generator" >}}
     {{< /cards >}}
 </section>
