@@ -2,6 +2,8 @@
 title: "ICS Light Cubes"
 date: 2024-03-21
 description: "A modular, reconfigurable lighting ecosystem designed for adaptive environments."
+image: "/images/cubes-hero.jpg"
+draft: false
 ---
 
 <div style="margin-bottom: 2rem; padding: 1.5rem; background: #f4f4f4; border-radius: 8px; border-left: 5px solid #000;">
