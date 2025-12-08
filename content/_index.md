@@ -15,7 +15,7 @@ description: "Design & Fabrication Portfolio"
 </section>
 
 <section>
-<h3>Latest Technical Logs</h3>
+<h3>Design projects</h3>
 {{< cards >}}
 {{< card link="/projects/02-filament-winder-build/" title="Machine Design: 3-Axis Winder" >}}
 {{< card link="/docs/02-winder-engineering/" title="Algorithm: G-Code Generator" >}}
