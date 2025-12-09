@@ -10,10 +10,6 @@ theme = 'hb-theme'
 
 [menu]
   [[menu.main]]
-    name = 'Research'
-    url = '/docs/'
-    weight = 1
-  [[menu.main]]
     name = 'Portfolio'
     url = '/projects/'
     weight = 2
