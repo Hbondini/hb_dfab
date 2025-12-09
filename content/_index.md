@@ -15,6 +15,6 @@ description: "Design & Fabrication Portfolio"
   {{< cards >}}
     {{< card link="/projects/01-project-introduction/" title="Capstone: Carbon Fiber Bicycle" image="/images/bike-hero.jpg" subtitle="Bicycle Design & Fabrication" >}}
 
-    {{< card link="/projects/03-ics-light-cubes/" title="ICS Light Cubes" image="/images/cubes-hero.jpg" subtitle="Product Design: Modular Lighting" >}}
+    {{< card link="/projects/03-ics-light-cubes/" image="/images/cubes-hero.jpg" subtitle="Product Design: Modular Lighting" >}}
   {{< /cards >}}
 </section>
