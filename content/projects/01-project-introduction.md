@@ -1,15 +1,13 @@
 ---
-title: "HB_DFab: Bridging the Gap in Custom Manufacturing"
+title: "Capstone: Carbon Fiber Bicycle"
 description: "A complete ecosystem for automated carbon fiber bicycle fabrication."
 tags: ["Filament Winding", "Process Engineering", "Capstone"]
 image: "/images/bike-hero.jpg"
 draft: false
 ---
 
-## The Design Thesis
-I am working to **lower the cost of entry** for custom carbon bicycle manufacturing. My goal is to automate the labor-intensive parts of the process using novel methods and machines built entirely in-house.
-
-The industry forces a binary choice: **Custom Metal** (Heavy, limited tuning) or **Custom Carbon** (Extremely expensive). This project proves we don't have to choose.
+## Design Outline
+To create a full vertically integrated manufacturing process for custom carbon fiber bicycles, using a range of digital fabrication techniques.
 
 ---
 
