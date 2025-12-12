@@ -36,7 +36,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_WATER_0C551980F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "public"      # <--- This is the line causing your error. It MUST be here.
+          app_location: "public"
           api_location: ""
           skip_app_build: true
 
@@ -50,4 +50,5 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_WATER_0C551980F }}
-          action: "close"             # Note: This job does NOT need app_location. That is correct.
+          action: "close"
+          app_location: "/" # <--- ADDED THIS. It is a dummy value to stop the error.
