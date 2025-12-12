@@ -20,18 +20,15 @@ jobs:
           submodules: true
           lfs: false
 
-      # Step 1: Install the NEW Hugo (0.148.0)
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.148.0'
           extended: true
 
-      # Step 2: Actually BUILD the site here (using the new version)
       - name: Build Site
         run: hugo --minify
 
-      # Step 3: Upload the result (Tell Azure to skip its own build)
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -40,10 +37,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           ###### Repository/Build Configurations ######
-          app_location: "/" 
-          api_location: ""
-          output_location: "public" # This is where 'hugo --minify' puts the files
-          skip_app_build: true      # CRITICAL: Tells Azure "I already built it, just upload"
+          app_location: "public" # CHANGE: We point directly to the built folder
+          api_location: "" 
+          output_location: ""    # Ignored when skip_app_build is true
+          skip_app_build: true   # Tells Azure "Just upload what is in app_location"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
