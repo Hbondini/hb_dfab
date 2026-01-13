@@ -49,6 +49,8 @@ I researched architectural panel mounting systems and adapted the geometry of th
 * **The Challenge:** Creating a snap-fit mechanism that holds the assembly under tension but releases with a specific force ($>15N$) for disassembly.
 * **The Solution:** I iterated through dozens of 3D printed clip profiles to tune the tolerances. The final design allows the internal electronics core to "snap" into the wooden shell, holding the optical diffuser flush against the Douglas Fir housing.
 
+![Internal Electronics Core](/images/cubes/light-internals.jpg)
+
 ---
 
 ## 4. Manufacturing Process
@@ -66,7 +68,7 @@ The aesthetic required the warmth of natural grain, but the mechanics required t
     <source src="/images/cubes/cnc-process.jpg.MOV" type="video/quicktime">
     Your browser does not support the video tag.
 </video>
-*The Douglas Fir housing being machined. Note the "Through-Bore" strategy.*
+*The Douglas Fir housing being machined.*
 
 ---
 
