@@ -13,7 +13,7 @@ description: "Design & Fabrication Portfolio"
   <h3 style="text-align: center; margin-bottom: 2rem; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; opacity: 0.5;">Selected Works</h3>
   
   {{< cards >}}
-    {{< card link="/projects/01-project-introduction/" title="Capstone: Carbon Fiber Bicycle" image="/images/capstone/bike-assembly.jpg" subtitle="Bicycle Design & Fabrication" >}}
+    {{< card link="/projects/01-project-introduction/" title="Capstone: Carbon Fiber Bicycle" image="/images/capstone/bike-assembly.heic" subtitle="Bicycle Design & Fabrication" >}}
 
     {{< card link="/projects/03-ics-light-cubes/" title="ICS Light Cubes" image="/images/cubes/cube-hero.jpg" subtitle="Product Design: Modular Lighting" >}}
   {{< /cards >}}
