@@ -75,6 +75,9 @@ Early manufacturing attempts relied on double-sided machining (flipping the wood
 * **The Failure:** When flipping the stock, registration errors of $<0.5mm$ caused the wall thickness to vary, leading to grain run-out and structural cracking under clamping pressure.
 * **The Engineering Fix:** I redesigned the part to utilize a **Single-Setup Through-Bore**. By machining the entire internal cavity from one side and profiling the exterior in the same operation, I guaranteed vertical concentricity and eliminated the registration variable entirely.
 
+![Failed SLA Print](/images/cubes/failed-sla.jpg)
+*Early resin printing failures showing support detachment.*
+
 ---
 
 ## 6. Future Development
