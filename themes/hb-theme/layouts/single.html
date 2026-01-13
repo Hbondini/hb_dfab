@@ -11,6 +11,15 @@
         {{ with .Params.image }}
           <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="hx:mt-8 hx:w-full hx:rounded-lg" />
         {{ end }}
+
+        {{ with .Params.presentation }}
+        <div class="hx:mt-4 hx:flex hx:justify-end">
+          <a href="{{ . }}" target="_blank" class="hx:group hx:inline-flex hx:items-center hx:gap-2 hx:text-sm hx:font-medium hx:text-gray-500 hx:transition-colors hover:hx:text-gray-900 dark:hx:text-gray-400 dark:hover:hx:text-gray-100">
+            <span>Download Engineering Defense</span>
+            {{ partial "utils/icon.html" (dict "name" "download" "attributes" "height=14") }}
+          </a>
+        </div>
+        {{ end }}
         <div class="hx:mb-16"></div>
         <div class="content">
           {{ .Content }}

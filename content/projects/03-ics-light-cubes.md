@@ -4,16 +4,9 @@ subtitle: "A modular, reconfigurable lighting ecosystem designed for adaptive en
 date: 2024-03-21
 tags: ["Product Design", "Mechatronics", "CNC", "SLA Printing"]
 image: "/images/cubes/cube-hero.jpg" 
+presentation: "https://hbdfab.blob.core.windows.net/assets/ICS-Light-Cubes%20(1).pptx"
 draft: false
 ---
-
-<div style="margin-bottom: 2rem; padding: 1.5rem; background: #f4f4f4; border-radius: 8px; border-left: 5px solid #333;">
-    <h3 style="margin-top: 0;">📥 Engineering Defense Deck</h3>
-    <p>This project was presented as a technical manufacturing defense. You can view the full slide deck detailing the electrical topology and CAM strategies below.</p>
-    <a href="https://hbdfab.blob.core.windows.net/assets/ICS-Light-Cubes%20(1).pptx" style="display: inline-block; padding: 10px 20px; background: #333; color: white; text-decoration: none; font-weight: bold; border-radius: 4px;">
-        Download Presentation (.pptx)
-    </a>
-</div>
 
 ## 1. The Design Problem
 **The Limitations of Static Lighting**
