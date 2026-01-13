@@ -2,7 +2,7 @@
 title: "Capstone: Carbon Fiber Bicycle"
 description: "A complete ecosystem for automated carbon fiber bicycle fabrication."
 tags: ["Filament Winding", "Process Engineering", "Capstone"]
-image: "/images/bike-hero.jpg"
+image: "/images/capstone/bike-assembly.heic"
 draft: false
 ---
 
