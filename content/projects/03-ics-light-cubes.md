@@ -41,6 +41,8 @@ To eliminate cables while maintaining safety, I engineered a contact-based power
 ### The Serviceability Mandate
 A core requirement was that the device must be repairable. I refused to use permanent adhesives to seal the electronics inside the wood.
 
+![Serviceability Mandate](/images/cubes/serviceability-mandate.heic)
+
 **The "Fastmount" Inspiration**
 I researched architectural panel mounting systems and adapted the geometry of the industrial **Fastmount** friction-clip system for 3D printing.
 
