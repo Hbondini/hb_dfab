@@ -29,7 +29,7 @@ Residential lighting forces a binary choice: high-intensity overhead lighting (s
 To eliminate cables while maintaining safety, I engineered a contact-based power architecture using the **USB-A Standard (5V)**.
 
 ![System Diagram](/images/cubes/cube-internal.jpg)
-*Detail of the spring-loaded pogo interface and magnetic alignment guides.*
+*5v Led Lights*
 
 * **SELV Compliance:** By utilizing 5V DC, the system remains within Safety Extra Low Voltage limits, making the exposed contact pads on the base station "human-safe" to touch.
 * **The Interconnect:** I selected **Spring-Loaded Pogo Pins** rated for 10,000 cycles. These provide 2.5mm of vertical travel, absorbing minor planarity variances in the wooden housing to ensure constant electrical contact.
