@@ -28,7 +28,7 @@ Residential lighting forces a binary choice: high-intensity overhead lighting (s
 ### Contact-Based Power Topology
 To eliminate cables while maintaining safety, I engineered a contact-based power architecture using the **USB-A Standard (5V)**.
 
-![System Diagram](/images/cubes/cube-pogo.jpg)
+![System Diagram](/images/cubes/cube-internal.jpg)
 *Detail of the spring-loaded pogo interface and magnetic alignment guides.*
 
 * **SELV Compliance:** By utilizing 5V DC, the system remains within Safety Extra Low Voltage limits, making the exposed contact pads on the base station "human-safe" to touch.
@@ -59,7 +59,11 @@ The aesthetic required the warmth of natural grain, but the mechanics required t
 | **Diffuser** | Additive (SLA Printing) | Translucent Resin |
 | **Chassis** | Additive (FDM Printing) | PETG / PLA+ |
 
-![CNC Process](/images/cubes/cnc-process.jpg)
+<video width="100%" controls autoplay loop muted playsinline>
+    <source src="/images/cubes/cnc-process.jpg.MOV" type="video/mp4">
+    <source src="/images/cubes/cnc-process.jpg.MOV" type="video/quicktime">
+    Your browser does not support the video tag.
+</video>
 *The Douglas Fir housing being machined. Note the "Through-Bore" strategy.*
 
 ---
