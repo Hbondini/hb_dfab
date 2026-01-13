@@ -17,7 +17,7 @@ To achieve this, I could not just build a bike. I had to build the factory first
 {{< cards >}}
   {{< card link="/projects/02-filament-winder-build/" title="The Machine: 3-Axis Winder" image="/images/winder/winder-hero.jpeg" subtitle="Hardware Design & Motion Control" >}}
 
-  {{< card link="/docs/02-winder-engineering/" title="The Code: G-Code Generator" image="/images/code-hero.jpg" subtitle="Algorithm & Pattern Logic" >}}
+  {{< card link="/docs/02-winder-engineering/" title="The Code: G-Code Generator" image="/images/winder/winder-code-generator.png" subtitle="Algorithm & Pattern Logic" >}}
 {{< /cards >}}
 
 ---
