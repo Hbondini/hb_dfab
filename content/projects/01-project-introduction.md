@@ -4,6 +4,13 @@ description: "A complete ecosystem for automated carbon fiber bicycle fabricatio
 tags: ["Filament Winding", "Process Engineering", "Capstone"]
 image: "/images/capstone/bike-assembly.heic"
 draft: false
+tech_specs:
+  - label: "Material"
+    value: "Carbon Fiber, Aluminum"
+  - label: "Process"
+    value: "Filament Winding, Molding"
+  - label: "Scope"
+    value: "Mechanical & Software"
 ---
 
 ## Design Outline
@@ -14,11 +21,10 @@ To create a full vertically integrated manufacturing process for custom carbon f
 ## Technical Sub-Systems
 To achieve this, I could not just build a bike. I had to build the factory first. I engineered my own manufacturing equipment and software control logic to make this workflow possible.
 
-{{< cards >}}
-  {{< card link="/projects/02-filament-winder-build/" title="The Machine: 3-Axis Winder" image="/images/winder/winder-hero.jpeg" subtitle="Hardware Design & Motion Control" >}}
-
-  {{< card link="/docs/02-winder-engineering/" title="The Code: G-Code Generator" image="/images/winder/winder-code-generator.png" subtitle="Algorithm & Pattern Logic" >}}
-{{< /cards >}}
+{{< portfolio_grid >}}
+  {{< project_card link="/projects/02-filament-winder-build/" title="The Machine: 3-Axis Winder" image="/images/winder/winder-hero.jpeg" >}}
+  {{< project_card link="/docs/02-winder-engineering/" title="The Code: G-Code Generator" image="/images/winder/winder-code-generator.png" >}}
+{{< /portfolio_grid >}}
 
 ---
 

@@ -4,6 +4,13 @@ description: "Designing, building, and programming a custom CNC machine for auto
 tags: ["Machine Design", "Klipper", "Composites"]
 image: "/images/winder/winder-hero.jpeg"
 draft: false
+tech_specs:
+  - label: "Hardware"
+    value: "Klipper, Stepper Motors"
+  - label: "Software"
+    value: "Python, G-Code"
+  - label: "Fabrication"
+    value: "3D Printing, Welding"
 ---
 
 # The Goal
