@@ -6,6 +6,13 @@ tags: ["Product Design", "Mechatronics", "CNC", "SLA Printing"]
 image: "/images/cubes/cube-hero.jpg" 
 presentation: "https://hbdfab.blob.core.windows.net/assets/ICS-Light-Cubes%20(1).pptx"
 draft: false
+tech_specs:
+  - label: "Material"
+    value: "Hard Maple, Walnut, SLA Resin"
+  - label: "Software"
+    value: "Fusion 360, Rhino"
+  - label: "Tools"
+    value: "3-Axis CNC, Form 3L"
 ---
 
 ## 1. The Design Problem
