@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="project-detail hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:mx-auto hx:px-6 hx:md:px-12">
+        
+        {{/* Hero Section */}}
+        <header class="hero">
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" />
+          {{ end }}
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.subtitle }}
+            <p class="description">{{ . }}</p>
+          {{ end }}
+        </header>
+
+        {{/* Download Link */}}
+        {{ with .Params.presentation }}
+        <div class="hx:mt-4 hx:flex hx:justify-end hx:px-4">
+          <a href="{{ . }}" target="_blank" class="hx:group hx:inline-flex hx:items-center hx:gap-2 hx:text-sm hx:font-medium hx:text-gray-500 hx:transition-colors hover:hx:text-gray-900 dark:hx:text-gray-400 dark:hover:hx:text-gray-100">
+            <span>Download Presentation</span>
+            {{ partial "utils/icon.html" (dict "name" "download" "attributes" "height=14") }}
+          </a>
+        </div>
+        {{ end }}
+
+        <div class="content hx:mt-8">
+          {{ .Content }}
+        </div>
+
+        {{/* Tech Specs Section */}}
+        {{ if .Params.tech_specs }}
+        <section class="tech-specs">
+          <h2>Tech Specs</h2>
+          <ul>
+            {{ range .Params.tech_specs }}
+            <li><span>{{ .label }}:</span> {{ .value }}</li>
+            {{ end }}
+          </ul>
+        </section>
+        {{ end }}
+
+        <div class="hx:mt-16"></div>
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}
