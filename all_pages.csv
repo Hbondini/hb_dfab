@@ -1,0 +1,6 @@
+path,slug,title,date,expiryDate,publishDate,draft,permalink,kind,section
+content/_index.md,,Harley Bondini,2024-03-21T00:00:00Z,0001-01-01T00:00:00Z,2024-03-21T00:00:00Z,false,https://www.hbdfab.com/,home,
+content/projects/03-ics-light-cubes.md,,ICS Light Cubes,2024-03-21T00:00:00Z,0001-01-01T00:00:00Z,2024-03-21T00:00:00Z,false,https://www.hbdfab.com/projects/03-ics-light-cubes/,page,projects
+content/projects/_index.md,,Project Portfolio,2024-03-21T00:00:00Z,0001-01-01T00:00:00Z,2024-03-21T00:00:00Z,false,https://www.hbdfab.com/projects/,section,projects
+content/projects/01-project-introduction.md,,Capstone: Carbon Fiber Bicycle,0001-01-01T00:00:00Z,0001-01-01T00:00:00Z,0001-01-01T00:00:00Z,false,https://www.hbdfab.com/projects/01-project-introduction/,page,projects
+content/projects/02-filament-winder-build.md,,Machine Design: 3-Axis Filament Winder,0001-01-01T00:00:00Z,0001-01-01T00:00:00Z,0001-01-01T00:00:00Z,false,https://www.hbdfab.com/projects/02-filament-winder-build/,page,projects
