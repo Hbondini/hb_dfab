@@ -37,6 +37,7 @@
     {{- $styles := slice $variablesCss $mainCss $customCss | resources.Concat "css/compiled/main.css" | minify | fingerprint }}
     <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+    <link href="/css/custom.css" rel="stylesheet" />
 
   {{- /* Theme development mode (non-production + theme environment) */ -}}
   {{- else if eq hugo.Environment "theme" }}
@@ -50,7 +51,7 @@
     {{- $styles := resources.Get "css/compiled/main.css" -}}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $variablesCss.RelPermalink }}" rel="stylesheet" />
-    <link href="{{ $customCss.RelPermalink }}" rel="stylesheet" />
+    <link href="/css/custom.css" rel="stylesheet" />
   {{- end }}
 
   {{ partial "components/analytics/analytics.html" . }}
