@@ -15,45 +15,57 @@ tech_specs:
     value: "3-Axis CNC, Form 3L"
 ---
 
-## 1. The Design Problem
+## 1. Concept & Ideation
 **The Limitations of Static Lighting**
 Residential lighting forces a binary choice: high-intensity overhead lighting (stimulation) or fixed ambient lamps (cord-restricted). There was no solution for "migratory" lighting that moves with the user without the friction of cables.
 
 * **Objective:** Create a tangible, battery-free lighting object that transitions from a single task light to a linear array in seconds.
 * **Philosophy:** "Tangible Interaction." Eliminating switches in favor of physical docking as the trigger for illumination.
 
+![Concept Sketches](/images/cubes/light-sketches.jpg)
+*Initial exploration of form and modularity.*
+
 ---
 
-## 2. System Architecture
+## 2. Prototyping
+Defining the scale was critical. The object had to feel substantial enough to be furniture, but light enough to be portable.
+
+{{< portfolio_grid >}}
+  {{< project_card link="#" title="Size Comparison" image="/images/cubes/size-comparisons.jpg" >}}
+  {{< project_card link="#" title="Early SLA Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
+{{< /portfolio_grid >}}
+
+---
+
+## 3. System Architecture
 ### Contact-Based Power Topology
 To eliminate cables while maintaining safety, I engineered a contact-based power architecture using the **USB-A Standard (5V)**.
 
 ![System Diagram](/images/cubes/cube-internal.jpg)
-*5v Led Lights*
+*5V Power topology and interconnects.*
 
 * **SELV Compliance:** By utilizing 5V DC, the system remains within Safety Extra Low Voltage limits, making the exposed contact pads on the base station "human-safe" to touch.
-* **The Interconnect:** I selected **Spring-Loaded Pogo Pins** rated for 10,000 cycles. These provide 2.5mm of vertical travel, absorbing minor planarity variances in the wooden housing to ensure constant electrical contact.
 * **Magnetic Assist:** Embedded Neodymium magnets provide a "self-aligning" force, pulling the cube into the correct docking position to guarantee pin-to-pad alignment without user effort.
 
 ---
 
-## 3. Mechanical Design
+## 4. Mechanical Design
 ### The Serviceability Mandate
 A core requirement was that the device must be repairable. I refused to use permanent adhesives to seal the electronics inside the wood.
 
 ![Serviceability Mandate](/images/cubes/serviceability-mandate.heic)
 
 **The "Fastmount" Inspiration**
-I researched architectural panel mounting systems and adapted the geometry of the industrial **Fastmount** friction-clip system for 3D printing.
+I researched architectural panel mounting systems and adapted the geometry of the industrial **Fastmount** friction-clip system for 3D printing. The final design allows the internal electronics core to "snap" into the wooden shell.
 
-* **The Challenge:** Creating a snap-fit mechanism that holds the assembly under tension but releases with a specific force ($>15N$) for disassembly.
-* **The Solution:** I iterated through dozens of 3D printed clip profiles to tune the tolerances. The final design allows the internal electronics core to "snap" into the wooden shell, holding the optical diffuser flush against the Douglas Fir housing.
-
-![Internal Electronics Core](/images/cubes/light-internals.jpg)
+{{< portfolio_grid >}}
+  {{< project_card link="#" title="Clip System Detail" image="/images/cubes/clip-system-wood.jpg" >}}
+  {{< project_card link="#" title="Internal Core" image="/images/cubes/light-internals.jpg" >}}
+{{< /portfolio_grid >}}
 
 ---
 
-## 4. Manufacturing Process
+## 5. Manufacturing Process
 ### Hybrid Fabrication Strategy
 The aesthetic required the warmth of natural grain, but the mechanics required the precision of engineering plastics.
 
@@ -70,36 +82,20 @@ The aesthetic required the warmth of natural grain, but the mechanics required t
 </video>
 *The Douglas Fir housing being machined.*
 
----
-
-## 5. Failure Analysis & Process Control
-### The "Flip Cut" Failure
-Early manufacturing attempts relied on double-sided machining (flipping the wood stock). This resulted in critical failures due to registration errors.
-
-![Failure Analysis](/images/cubes/cube-fail.jpg)
-*Left: Grain fracture due to misalignment. Right: The corrected process.*
-
-* **The Failure:** When flipping the stock, registration errors of $<0.5mm$ caused the wall thickness to vary, leading to grain run-out and structural cracking under clamping pressure.
-* **The Engineering Fix:** I redesigned the part to utilize a **Single-Setup Through-Bore**. By machining the entire internal cavity from one side and profiling the exterior in the same operation, I guaranteed vertical concentricity and eliminated the registration variable entirely.
-
-![Failed SLA Print](/images/cubes/failed-sla.jpg)
-*Early resin printing failures showing support detachment.*
-
----
-
-## 6. Future Development
-* **Scale:** Transitioning from batch prototyping to a 4-axis turning center for higher throughput.
-* **Material:** Investigating cast optical silicone to replace the SLA resin for improved impact resistance.
----
-
-## 7. Project Gallery
-Early sketches, prototyping, and final fit testing.
+**Failure Analysis & Process Control**
+Early manufacturing attempts relied on double-sided machining (flipping the wood stock). This resulted in critical failures due to registration errors. I redesigned the part to utilize a **Single-Setup Through-Bore** to guarantee vertical concentricity.
 
 {{< portfolio_grid >}}
-  {{< project_card link="#" title="Initial Sketches" image="/images/cubes/light-sketches.jpg" >}}
-  {{< project_card link="#" title="Size Comparisons" image="/images/cubes/size-comparisons.jpg" >}}
-  {{< project_card link="#" title="Clip System" image="/images/cubes/clip-system-wood.jpg" >}}
-  {{< project_card link="#" title="3D Printed Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
-  {{< project_card link="#" title="Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
-  {{< project_card link="#" title="Project Scale" image="/images/cubes/me-with-light-project.jpg" >}}
+  {{< project_card link="#" title="Grain Fracture Analysis" image="/images/cubes/cube-fail.jpg" >}}
+  {{< project_card link="#" title="SLA Support Failure" image="/images/cubes/failed-sla.jpg" >}}
+{{< /portfolio_grid >}}
+
+---
+
+## 6. Final Validation
+Testing the friction fit and scale of the final assembly.
+
+{{< portfolio_grid >}}
+  {{< project_card link="#" title="Final Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
+  {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}
 {{< /portfolio_grid >}}
