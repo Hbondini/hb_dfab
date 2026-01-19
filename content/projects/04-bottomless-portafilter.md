@@ -2,7 +2,7 @@
 title: "Bottomless Portafilter"
 description: "Custom machined portafilter design."
 tags: ["Machining", "Product Design", "Coffee"]
-image: "/images/coffee-portafilter/hero.jpg"
+image: "/images/coffee-portafilter/pulling out of mill.jpg"
 draft: false
 tech_specs:
   - label: "Material"
@@ -13,23 +13,29 @@ tech_specs:
     value: "Polished / Anodized"
 ---
 
-## Project Overview
-A custom design study for a high-performance espresso machine portafilter.
+## 1. Design & Prototyping
+Before cutting metal, the geometry was validated using 3D printed PLA prototypes to ensure ergonomic fit and compatibility with the E61 group head.
 
-![Portafilter Detail](/images/coffee-portafilter/detail-1.jpg)
+![3D Printed Prototype](/images/coffee-portafilter/3d printed prototype.jpg)
 
-## Fabrication Process
-The main body was machined from a solid block of aluminum.
+---
+
+## 2. Machining Process
+The main body was machined from a solid block of aluminum. The complex internal geometry required multiple setups and custom workholding.
+
+{{< portfolio_grid >}}
+  {{< project_card link="#" title="Milling Setup" image="/images/coffee-portafilter/1st side milling.jpg" >}}
+  {{< project_card link="#" title="Op-1 Complete" image="/images/coffee-portafilter/1st side milled.jpg" >}}
+{{< /portfolio_grid >}}
 
 <video width="100%" controls muted playsinline>
   <source src="/images/coffee-portafilter/process-video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-## Gallery
-{{< portfolio_grid >}}
-  {{< project_card link="#" title="Detail View 1" image="/images/coffee-portafilter/detail-2.jpg" >}}
-  {{< project_card link="#" title="Detail View 2" image="/images/coffee-portafilter/detail-3.jpg" >}}
-  {{< project_card link="#" title="Detail View 3" image="/images/coffee-portafilter/detail-4.jpg" >}}
-{{< /portfolio_grid >}}
+---
 
+## 3. Testing & Validation
+The final prototype undergoing thermal retention and flow testing.
+
+![Prototype Testing](/images/coffee-portafilter/prototype testing.jpg)
