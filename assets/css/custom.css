@@ -168,7 +168,7 @@ h1, h2, h3, h4, p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Parallax effect */
-  margin-top: -4rem; /* Pull up behind navbar if needed, though we might need nav adjustment */
+  margin-top: -64px; /* Pull up behind navbar if needed, though we might need nav adjustment */
   color: #fff;
   padding: 0 1rem;
 }
@@ -235,5 +235,6 @@ h1, h2, h3, h4, p {
 .home article main {
   padding-top: 0 !important;
 }
+
 
 
