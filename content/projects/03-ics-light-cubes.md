@@ -22,7 +22,7 @@ Residential lighting forces a binary choice: high-intensity overhead lighting (s
 * **Objective:** Create a tangible, battery-free lighting object that transitions from a single task light to a linear array in seconds.
 * **Philosophy:** "Tangible Interaction." Eliminating switches in favor of physical docking as the trigger for illumination.
 
-![Concept Sketches](/images/cubes/light-sketches.jpg)
+![Concept Sketches](/images/cubes/initial-cube-sketches.jpg)
 *Initial exploration of form and modularity.*
 
 ---
@@ -105,4 +105,5 @@ The final result in context.
   {{< project_card link="#" title="Bench Setup 1" image="/images/cubes/bench-setup-1.jpg" >}}
   {{< project_card link="#" title="Bench Setup 2" image="/images/cubes/bench-setup-2.jpg" >}}
 {{< /portfolio_grid >}}
+
 
