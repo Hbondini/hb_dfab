@@ -36,13 +36,17 @@ The final prototype undergoing fit testing to ensure perfect engagement with the
 ## 3. Machining Process
 The complex internal geometry required multiple setups. Note that the lugs seen protruding from the handle in the photos are temporary features, designed specifically for workholding and orientation during the milling process.
 
-{{< portfolio_grid >}}
-  {{< project_card link="#" title="CAM Simulation" image="/images/coffee-portafilter/portafilter-cam-sim.png" >}}
-  {{< project_card link="#" title="Op-1: Milling" image="/images/coffee-portafilter/1st-side-milling.jpg" >}}
-  {{< project_card link="#" title="Op-1: Complete" image="/images/coffee-portafilter/1st-side-milled.jpg" >}}
-{{< /portfolio_grid >}}
+![CAM Simulation](/images/coffee-portafilter/portafilter-cam-sim.png)
+*CAM Simulation of the toolpaths.*
+
+![Milling Process](/images/coffee-portafilter/1st-side-milling.jpg)
+*Machining the first side.*
+
+![1st Rough Cut Complete](/images/coffee-portafilter/1st-side-milled.jpg)
+*1st rough cut complete.*
 
 <video width="100%" controls muted playsinline>
   <source src="/images/coffee-portafilter/process-video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
