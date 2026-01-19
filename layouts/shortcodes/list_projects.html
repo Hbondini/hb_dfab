@@ -1,35 +1,20 @@
 <section class="portfolio-grid">
-  {{ with site.GetPage "/projects" }}
-    
-    {{/* 1. Sub-Projects (Folders with _index.md, e.g. Capstone) */}}
-    {{ range .Sections }}
-      <div class="project-card">
-        <a href="{{ .RelPermalink }}">
-          <div class="image-container">
-            {{ if .Params.image }}
-              <img src="{{ .Params.image }}" alt="{{ .Title }}">
-            {{ end }}
-          </div>
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Params.description }}</p>
-        </a>
-      </div>
+  {{  := site.GetPage "/projects" }}
+  {{ with  }}
+    {{ range .Pages }}
+      {{ if eq .Parent  }}
+        <div class="project-card">
+          <a href="{{ .RelPermalink }}">
+            <div class="image-container">
+              {{ if .Params.image }}
+                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Params.description }}</p>
+          </a>
+        </div>
+      {{ end }}
     {{ end }}
-
-    {{/* 2. Standalone Projects (Single .md files) */}}
-    {{ range .RegularPages }}
-      <div class="project-card">
-        <a href="{{ .RelPermalink }}">
-          <div class="image-container">
-            {{ if .Params.image }}
-              <img src="{{ .Params.image }}" alt="{{ .Title }}">
-            {{ end }}
-          </div>
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Params.description }}</p>
-        </a>
-      </div>
-    {{ end }}
-
   {{ end }}
 </section>
