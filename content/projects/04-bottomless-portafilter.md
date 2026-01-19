@@ -16,7 +16,7 @@ tech_specs:
 ## 1. Concept & Design
 Designed to fit the **Breville 54mm** system, this portafilter is machined from a **single piece of aluminium** (monoblock construction) to eliminate the weak point found in standard two-piece press-fit designs. 
 
-![Initial Design Sketch](/images/coffee-portafilter/porta-filter-sketch.jpeg)
+![Initial Design Sketch](/images/coffee-portafilter/porta-filter-sketch.jpg)
 *Initial concept sketch exploring the handle geometry.*
 
 ---
@@ -49,5 +49,6 @@ The complex internal geometry required multiple setups. Note that the lugs seen 
   <source src="/images/coffee-portafilter/process-video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
