@@ -13,7 +13,7 @@ Bridging the gap between digital design and physical fabrication through high-pe
 <div class="home-skills-grid">
   <div class="skill-item">
     <h4>Digital Design</h4>
-    <p>Generative Design, CAD/CAM, & FEA Optimization</p>
+    <p>Generative Design & CAD/CAM</p>
   </div>
   <div class="skill-item">
     <h4>Manufacturing</h4>
@@ -36,5 +36,6 @@ Bridging the gap between digital design and physical fabrication through high-pe
     <a href="/projects/" class="btn-primary">Explore All Projects</a>
   </div>
 </section>
+
 
 
