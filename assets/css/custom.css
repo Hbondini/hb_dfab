@@ -195,3 +195,29 @@ h1, h2, h3, h4, p {
 /* For now, we will just make the hero look good */
 
 
+
+/* Transparent Navbar Over Hero */
+.hextra-nav-container {
+  background: transparent !important;
+}
+
+.hextra-nav-container-blur {
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+/* Optional: Add background when scrolling - this usually needs JS, 
+   but for the Ovuud look we can start with purely transparent on the home page. */
+
+/* Ensure navbar links are white on the home page hero */
+.home .hextra-nav-container a, 
+.home .hextra-nav-container span,
+.home .hextra-nav-container svg {
+  color: #fff !important;
+}
+
+/* Remove the top margin from the main content so hero hits the top */
+.home article main {
+  padding-top: 0 !important;
+}
