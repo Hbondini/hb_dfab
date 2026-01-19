@@ -30,10 +30,11 @@ Utilizing CNC machining for precise joinery and component integration.
 
 ## Gallery
 {{< portfolio_grid >}}
-  {{< project_card link="#" title="Detail 1" image="/images/design-for-self/detail-1.jpg" >}}
-  {{< project_card link="#" title="Detail 2" image="/images/design-for-self/detail-2.jpg" >}}
-  {{< project_card link="#" title="Detail 3" image="/images/design-for-self/detail-3.jpg" >}}
-  {{< project_card link="#" title="Detail 4" image="/images/design-for-self/detail-4.jpg" >}}
-  {{< project_card link="#" title="Detail 5" image="/images/design-for-self/detail-5.jpg" >}}
-  {{< project_card link="#" title="Detail 6" image="/images/design-for-self/detail-6.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-1.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-2.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-3.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-4.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-5.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-6.jpg" >}}
 {{< /portfolio_grid >}}
+
