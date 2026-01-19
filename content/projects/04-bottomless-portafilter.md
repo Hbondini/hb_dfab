@@ -39,16 +39,17 @@ The complex internal geometry required multiple setups. Note that the lugs seen 
 ![CAM Simulation](/images/coffee-portafilter/portafilter-cam-sim.png)
 *CAM Simulation of the toolpaths.*
 
-![Milling Process](/images/coffee-portafilter/1st-side-milling.jpg)
+![Milling Process](/images/coffee-portafilter/first-side-milling.jpg)
 *Machining the first side.*
 
-![1st Rough Cut Complete](/images/coffee-portafilter/1st-side-milled.jpg)
+![1st Rough Cut Complete](/images/coffee-portafilter/first-side-milled.jpg)
 *1st rough cut complete.*
 
 <video width="100%" controls muted playsinline>
   <source src="/images/coffee-portafilter/process-video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 
