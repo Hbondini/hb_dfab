@@ -117,7 +117,7 @@
 
 /* Global Background Color */
 body {
-  background-color: #003366; /* Deep professional blue */
+  background-color: #000000; /* Pure Black */
   color: #ffffff; /* White text for contrast */
 }
 
@@ -138,3 +138,4 @@ h1, h2, h3, h4, p {
 .home-portfolio-title {
   opacity: 0.6;
 }
+
