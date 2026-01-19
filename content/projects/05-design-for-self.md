@@ -26,7 +26,7 @@ Utilizing CNC machining for precise joinery and component integration.
   {{< project_card link="#" title="Rapid Prototyping" image="/images/design-for-self/rapid-proto.jpg" >}}
 {{< /portfolio_grid >}}
 
-![Process Shot](/images/design-for-self/process-1.jpg)
+
 
 ## Gallery
 {{< portfolio_grid >}}
@@ -37,4 +37,5 @@ Utilizing CNC machining for precise joinery and component integration.
   {{< project_card link="#"  image="/images/design-for-self/detail-5.jpg" >}}
   {{< project_card link="#"  image="/images/design-for-self/detail-6.jpg" >}}
 {{< /portfolio_grid >}}
+
 
