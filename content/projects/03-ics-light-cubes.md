@@ -100,6 +100,9 @@ Early manufacturing attempts relied on double-sided machining (flipping the wood
 The final result in context.
 
 {{< portfolio_grid >}}
-  {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}
+  {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}       
   {{< project_card link="#" title="Studio Context" image="/images/cubes/lights-in-studio.jpg" >}}
+  {{< project_card link="#" title="Bench Setup 1" image="/images/cubes/bench-setup-1.jpg" >}}
+  {{< project_card link="#" title="Bench Setup 2" image="/images/cubes/bench-setup-2.jpg" >}}
 {{< /portfolio_grid >}}
+
