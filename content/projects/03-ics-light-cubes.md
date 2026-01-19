@@ -58,10 +58,11 @@ A core requirement was that the device must be repairable. I refused to use perm
 **The "Fastmount" Inspiration**
 I researched architectural panel mounting systems and adapted the geometry of the industrial **Fastmount** friction-clip system for 3D printing. The final design allows the internal electronics core to "snap" into the wooden shell.
 
-{{< portfolio_grid >}}
-  {{< project_card link="#" title="Clip System Detail" image="/images/cubes/clip-system-wood.jpg" >}}
-  {{< project_card link="#" title="Internal Core" image="/images/cubes/light-internals.jpg" >}}
-{{< /portfolio_grid >}}
+![Clip System Detail](/images/cubes/clip-system-wood.jpg)
+*Detail of the friction-clip system.*
+
+![Internal Core](/images/cubes/light-internals.jpg)
+*The internal electronics core assembly.*
 
 ---
 
@@ -99,4 +100,5 @@ Testing the friction fit and scale of the final assembly.
   {{< project_card link="#" title="Final Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
   {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}
 {{< /portfolio_grid >}}
+
 
