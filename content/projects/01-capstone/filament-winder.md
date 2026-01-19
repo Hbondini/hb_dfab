@@ -3,7 +3,7 @@ title: "Machine Design: 3-Axis Filament Winder"
 description: "Designing, building, and programming a custom CNC machine for automated composite fabrication."
 tags: ["Machine Design", "Klipper", "Composites"]
 image: "/images/winder/winder-hero.jpeg"
-draft: false
+draft: true
 tech_specs:
   - label: "Hardware"
     value: "Klipper, Stepper Motors"
