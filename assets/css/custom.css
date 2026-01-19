@@ -114,3 +114,27 @@
   background: currentColor;
   color: #fff; /* This might need adjustment based on theme colors */
 }
+
+/* Global Background Color */
+body {
+  background-color: #003366; /* Deep professional blue */
+  color: #ffffff; /* White text for contrast */
+}
+
+/* Ensure other elements blend well */
+.hx:bg-white, .hx:bg-gray-100 {
+  background-color: transparent !important;
+}
+
+/* Adjust headings and text for dark background */
+h1, h2, h3, h4, p {
+  color: #ffffff !important;
+}
+
+.home-intro-text, .skill-item p, .project-card p {
+  opacity: 0.9;
+}
+
+.home-portfolio-title {
+  opacity: 0.6;
+}
