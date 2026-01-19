@@ -8,7 +8,7 @@ presentation: "https://hbdfab.blob.core.windows.net/assets/ICS-Light-Cubes%20(1)
 draft: false
 tech_specs:
   - label: "Material"
-    value: "Hard Maple, Walnut, SLA Resin"
+    value: "Douglas Fir, SLA Resin, PLA"
   - label: "Software"
     value: "Fusion 360, Rhino"
   - label: "Tools"
@@ -101,3 +101,4 @@ Testing the human scale of the finished assembly.
 
 ![Human Scale](/images/cubes/me-with-light-project.jpg)
 *Scale comparison of the finished assembly.*
+
