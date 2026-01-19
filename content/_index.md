@@ -22,11 +22,11 @@ Bridging the gap between digital design and physical fabrication through high-pe
 </div>
 <div class="skill-item">
 <h4>Manufacturing</h4>
-<p>Filament Winding, Composites, & Hybrid Tooling</p>
+<p>Filament Winding, Composites, & CNC Machining</p>
 </div>
 <div class="skill-item">
 <h4>Prototyping</h4>
-<p>CNC Machining, 3D Printing, & Rapid Iteration</p>
+<p>3D Printing & Rapid Iteration</p>
 </div>
 </div>
 
@@ -43,3 +43,4 @@ Bridging the gap between digital design and physical fabrication through high-pe
 </section>
 </div>
 </div>
+
