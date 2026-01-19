@@ -44,6 +44,7 @@ The complex internal geometry required multiple setups.
 ---
 
 ## 4. Testing & Validation
-The final prototype undergoing thermal retention and flow testing.
+The final prototype undergoing fit testing to ensure perfect engagement with the group head.
 
 ![Prototype Testing](/images/coffee-portafilter/prototype-testing.jpg)
+
