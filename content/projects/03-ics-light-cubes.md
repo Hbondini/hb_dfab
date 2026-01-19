@@ -90,3 +90,16 @@ Early manufacturing attempts relied on double-sided machining (flipping the wood
 ## 6. Future Development
 * **Scale:** Transitioning from batch prototyping to a 4-axis turning center for higher throughput.
 * **Material:** Investigating cast optical silicone to replace the SLA resin for improved impact resistance.
+---
+
+## 7. Project Gallery
+Early sketches, prototyping, and final fit testing.
+
+{{< portfolio_grid >}}
+  {{< project_card link="#" title="Initial Sketches" image="/images/cubes/light-sketches.jpg" >}}
+  {{< project_card link="#" title="Size Comparisons" image="/images/cubes/size-comparisons.jpg" >}}
+  {{< project_card link="#" title="Clip System" image="/images/cubes/clip-system-wood.jpg" >}}
+  {{< project_card link="#" title="3D Printed Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
+  {{< project_card link="#" title="Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
+  {{< project_card link="#" title="Project Scale" image="/images/cubes/me-with-light-project.jpg" >}}
+{{< /portfolio_grid >}}
