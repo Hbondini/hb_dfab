@@ -18,6 +18,15 @@ This project explores the intersection of digital fabrication and traditional wo
 
 ![Coffee Station Overview](/images/design-for-self/hero.jpg)
 
+
+## CAD Design & Rendering
+Visualizing the assembly and joinery details before fabrication.
+
+{{< portfolio_grid >}}
+  {{< project_card link="#" image="/images/design-for-self/untitled-13.jpg" >}}
+  {{< project_card link="#" image="/images/design-for-self/screenshot-1.jpg" >}}
+{{< /portfolio_grid >}}
+
 ## Fabrication Process
 Utilizing CNC machining for precise joinery and component integration.
 
@@ -36,6 +45,8 @@ Utilizing CNC machining for precise joinery and component integration.
   {{< project_card link="#"  image="/images/design-for-self/detail-4.jpg" >}}
   {{< project_card link="#"  image="/images/design-for-self/detail-5.jpg" >}}
   {{< project_card link="#"  image="/images/design-for-self/detail-6.jpg" >}}
+  {{< project_card link="#"  image="/images/design-for-self/detail-7.jpg" >}}
 {{< /portfolio_grid >}}
+
 
 
