@@ -1,5 +1,5 @@
 ---
-title: "Coffee Portafilter"
+title: "Bottomless Portafilter"
 description: "Custom machined portafilter design."
 tags: ["Machining", "Product Design", "Coffee"]
 image: "/images/coffee-portafilter/hero.jpg"
@@ -32,3 +32,4 @@ The main body was machined from a solid block of aluminum.
   {{< project_card link="#" title="Detail View 2" image="/images/coffee-portafilter/detail-3.jpg" >}}
   {{< project_card link="#" title="Detail View 3" image="/images/coffee-portafilter/detail-4.jpg" >}}
 {{< /portfolio_grid >}}
+
