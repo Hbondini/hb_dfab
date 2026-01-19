@@ -6,11 +6,11 @@ image: "/images/design-for-self/hero.jpg"
 draft: false
 tech_specs:
   - label: "Material"
-    value: "Hardwood, Aluminum"
+    value: "White Oak, Teak, and PLA"
   - label: "Process"
-    value: "CNC Milling, Woodworking"
+    value: "CNC Milling and 3D Printing"
   - label: "Finish"
-    value: "Oil / Anodized"
+    value: "Tung Oil"
 ---
 
 ## Project Overview
@@ -47,6 +47,7 @@ Utilizing CNC machining for precise joinery and component integration.
   {{< project_card link="#"  image="/images/design-for-self/detail-6.jpg" >}}
   {{< project_card link="#"  image="/images/design-for-self/detail-7.jpg" >}}
 {{< /portfolio_grid >}}
+
 
 
 
