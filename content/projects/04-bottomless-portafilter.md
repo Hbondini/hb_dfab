@@ -37,6 +37,7 @@ The final prototype undergoing fit testing to ensure perfect engagement with the
 The complex internal geometry required multiple setups. Note that the lugs seen protruding from the handle in the photos are temporary features, designed specifically for workholding and orientation during the milling process.
 
 {{< portfolio_grid >}}
+  {{< project_card link="#" title="CAM Simulation" image="/images/coffee-portafilter/portafilter-cam-sim.png" >}}
   {{< project_card link="#" title="Op-1: Milling" image="/images/coffee-portafilter/1st-side-milling.jpg" >}}
   {{< project_card link="#" title="Op-1: Complete" image="/images/coffee-portafilter/1st-side-milled.jpg" >}}
 {{< /portfolio_grid >}}
