@@ -3,12 +3,15 @@ title: "Harley Bondini"
 description: "Design & Fabrication Portfolio"
 ---
 
-<section class="home-intro-section">
-<h2 class="home-intro-title">Advanced Manufacturing & Design</h2>
-<p class="home-intro-text">
-Bridging the gap between digital design and physical fabrication through high-performance materials and custom-engineered processes.
-</p>
-</section>
+<div class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Advanced Manufacturing & Design</h1>
+    <p class="hero-subtitle">
+      Bridging the gap between digital design and physical fabrication through high-performance materials and custom-engineered processes.
+    </p>
+  </div>
+</div>
 
 <div class="home-skills-grid">
   <div class="skill-item">
@@ -36,6 +39,3 @@ Bridging the gap between digital design and physical fabrication through high-pe
     <a href="/projects/" class="btn-primary">Explore All Projects</a>
   </div>
 </section>
-
-
-
