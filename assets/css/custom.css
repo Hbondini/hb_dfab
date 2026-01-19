@@ -35,16 +35,16 @@
 }
 
 .project-card {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background: var(--bg-color, #fff); /* Fallback or variable */
+  background: transparent; /* Fallback or variable */
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 
 .project-card a {
@@ -71,4 +71,46 @@
   margin: 0;
   opacity: 0.8;
   font-size: 0.9rem;
+}
+
+
+/* Home Page Specifics */
+.home-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.skill-item h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.skill-item p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.view-more-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: currentColor;
+  color: #fff; /* This might need adjustment based on theme colors */
 }
