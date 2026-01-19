@@ -3,7 +3,7 @@ title: "Machine Design: 3-Axis Filament Winder"
 description: "Designing, building, and programming a custom CNC machine for automated composite fabrication."
 tags: ["Machine Design", "Klipper", "Composites"]
 image: "/images/winder/winder-hero.jpeg"
-draft: true
+draft: false
 tech_specs:
   - label: "Hardware"
     value: "Klipper, Stepper Motors"
@@ -51,3 +51,4 @@ Most DIY winders use Arduino (Marlin). I chose **Klipper** because of its abilit
 The hardest part of this build was the math. Initial tests showed "Pattern Drift," where the fibers would leave gaps after several rotations. I wrote a custom **G-Code Generator** that calculates the **"Integer + Fraction"** ratio to lock the pattern.
 
 > *You can view the full G-Code Generator tool and try the math yourself in the [Project Docs](/docs/02-winder-engineering).*
+

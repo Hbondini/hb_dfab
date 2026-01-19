@@ -36,6 +36,14 @@ Bridging the gap between digital design and physical fabrication through high-pe
 </div>
 </div>
 
+<div class="featured-project-link-container">
+<h3 class="home-portfolio-title">Featured Project</h3>
+<a href="/projects/01-capstone/" class="featured-project-link">
+  Capstone: Carbon Fiber Bicycle
+  <span class="featured-project-sub">View Case Study</span>
+</a>
+</div>
+
 <div class="view-more-container">
 <a href="/projects/" class="btn-primary">Explore All Projects</a>
 </div>
