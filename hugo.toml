@@ -13,3 +13,9 @@ theme = 'hb-theme'
     name = 'Portfolio'
     url = '/projects/'
     weight = 2
+  [[menu.main]]
+    name = 'Instagram'
+    url = 'https://www.instagram.com/hb_dfab'
+    weight = 3
+    [menu.main.params]
+      icon = 'instagram'
