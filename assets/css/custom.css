@@ -155,10 +155,10 @@ h1, h2, h3, h4, p {
 
 
 
-/* Sticky Background Hero Effect */
+
+/* Full Screen Hero with Parallax Background */
 .hero-section {
-  position: sticky;
-  top: 0;
+  position: relative; /* Changed from sticky back to relative */
   height: 100vh;
   min-height: 600px;
   display: flex;
@@ -169,22 +169,23 @@ h1, h2, h3, h4, p {
   background-image: url('/images/coffee-portafilter/pulling-out-of-mill.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /* Keep the parallax feel */
   margin-top: -64px; 
   color: #fff;
   padding: 0 1rem;
   z-index: 1;
 }
 
-/* Ensure the content slides OVER the hero */
+/* Remove the solid background so it blends naturally */
 .home-content-wrapper {
   position: relative;
   z-index: 10;
-  background-color: #000; /* Black background for the content sections */
+  background-color: transparent; 
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-/* Adjust the hero overlay to be slightly darker for better contrast if needed */
+/* Adjust the hero overlay */
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -218,6 +219,7 @@ h1, h2, h3, h4, p {
 .home article main {
   padding-top: 0 !important;
 }
+
 
 
 
