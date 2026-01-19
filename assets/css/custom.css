@@ -160,7 +160,7 @@ h1, h2, h3, h4, p {
 
 /* 1. Apply the image to the BODY on the home page */
 body.home {
-  background-image: url('/images/coffee-portafilter/pulling-out-of-mill.jpg');
+  background-image: url('/images/coffee-portafilter/pulling-from-mill.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -279,3 +279,5 @@ body.home::before {
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+

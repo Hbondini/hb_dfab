@@ -2,7 +2,7 @@
 title: "Bottomless Portafilter"
 description: "Custom machined portafilter design for Breville 54mm machines."
 tags: ["Machining", "Product Design", "Coffee"]
-image: "/images/coffee-portafilter/pulling-out-of-mill.jpg"
+image: "/images/coffee-portafilter/pulling-from-mill.jpg"
 draft: false
 tech_specs:
   - label: "Material"
@@ -49,6 +49,7 @@ The complex internal geometry required multiple setups. Note that the lugs seen 
   <source src="/images/coffee-portafilter/process-video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 
