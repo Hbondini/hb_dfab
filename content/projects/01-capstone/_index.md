@@ -2,7 +2,7 @@
 title: "Capstone: Carbon Fiber Bicycle"
 description: "A complete ecosystem for automated carbon fiber bicycle fabrication."
 tags: ["Filament Winding", "Process Engineering", "Capstone"]
-image: "/images/winder/winder-hero.jpeg"
+image: "/images/capstone/bike-assembly.jpeg"
 draft: false
 tech_specs:
   - label: "Material"
@@ -39,3 +39,4 @@ Moving away from expensive metal molds, I utilize 3D printed tooling (High-Temp 
 By utilizing **Metal Powder Casting** for junctions, I can create complex, custom geometries without the massive tooling costs of traditional monocoque molds.
 
 *Follow the sub-project links above for detailed engineering logs.*
+
