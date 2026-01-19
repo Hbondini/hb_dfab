@@ -26,25 +26,22 @@
   opacity: 0.5;
 }
 
-/* Portfolio Grid */
+
+/* Refined Architectural Portfolio Grid */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Larger cards */
+  gap: 3rem; /* More breathing room */
+  margin-top: 4rem;
 }
 
 .project-card {
   border: none;
-  border-radius: 8px;
+  border-radius: 0; /* Sharp architectural edges */
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background: transparent; /* Fallback or variable */
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: none;
+  background: transparent;
+  position: relative;
+  group-hover: /* handled by nesting or parent hover */
 }
 
 .project-card a {
@@ -53,28 +50,45 @@
   display: block;
 }
 
+.project-card .image-container {
+  overflow: hidden; /* For zoom effect */
+  width: 100%;
+  aspect-ratio: 4/3; /* Classic architectural proportion */
+}
+
 .project-card img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.project-card:hover img {
+  transform: scale(1.05); /* Subtle smooth zoom */
 }
 
 .project-card h3 {
-  padding: 1rem 1rem 0.5rem;
+  padding: 1.5rem 0 0.5rem 0;
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
+  text-align: left; /* Architectural alignment */
 }
 
 .project-card p {
-  padding: 0 1rem 1rem;
+  padding: 0;
   margin: 0;
-  opacity: 0.8;
-  font-size: 0.9rem;
-}
-
-
-/* Home Page Specifics */
+  font-size: 0.85rem;
+  opacity: 0.6;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.5;
+}/* Home Page Specifics */
 .home-skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -221,3 +235,5 @@ h1, h2, h3, h4, p {
 .home article main {
   padding-top: 0 !important;
 }
+
+

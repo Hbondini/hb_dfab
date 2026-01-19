@@ -4,9 +4,11 @@
       {{ if eq .Parent.RelPermalink "/projects/" }}
         <div class="project-card">
           <a href="{{ .RelPermalink }}">
-            {{ if .Params.image }}
-              <img src="{{ .Params.image }}" alt="{{ .Title }}">
-            {{ end }}
+            <div class="image-container">
+              {{ if .Params.image }}
+                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+              {{ end }}
+            </div>
             <h3>{{ .Title }}</h3>
             <p>{{ .Params.description }}</p>
           </a>
