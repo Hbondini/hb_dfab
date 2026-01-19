@@ -40,7 +40,7 @@ Bridging the gap between digital design and physical fabrication through high-pe
 <h3 class="home-portfolio-title">Featured Project</h3>
 
 {{< portfolio_grid >}}
-{{< project_card link="/projects/01-capstone/" title="Capstone: Carbon Fiber Bicycle" image="/images/capstone/bike-assembly.jpeg" >}}
+{{< project_card link="/projects/01-capstone/" title="Capstone: Carbon Fiber Bicycle" image="/images/capstone/3d printed bike frame.jpg" >}}
 {{< /portfolio_grid >}}
 
 <div class="view-more-container">
@@ -49,3 +49,4 @@ Bridging the gap between digital design and physical fabrication through high-pe
 </section>
 </div>
 </div>
+
