@@ -1,20 +1,34 @@
 <section class="portfolio-grid">
-  {{  := site.GetPage "/projects" }}
-  {{ with  }}
-    {{ range .Pages }}
-      {{ if eq .Parent  }}
-        <div class="project-card">
-          <a href="{{ .RelPermalink }}">
-            <div class="image-container">
-              {{ if .Params.image }}
-                <img src="{{ .Params.image }}" alt="{{ .Title }}">
-              {{ end }}
-            </div>
-            <h3>{{ .Title }}</h3>
-            <p>{{ .Params.description }}</p>
-          </a>
-        </div>
-      {{ end }}
+  {{ range where site.RegularPages "Section" "projects" }}
+    {{/* Only show if the page is a direct child of 'projects' */}}
+    {{  := split (strings.TrimPrefix "/projects/" .RelPermalink) "/" }}
+    {{ if eq (len ) 1 }}
+      <div class="project-card">
+        <a href="{{ .RelPermalink }}">
+          <div class="image-container">
+            {{ if .Params.image }}
+              <img src="{{ .Params.image }}" alt="{{ .Title }}">
+            {{ end }}
+          </div>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Params.description }}</p>
+        </a>
+      </div>
     {{ end }}
+  {{ end }}
+  
+  {{ range where site.Sections "Section" "projects" }}
+    {{/* This handles the Capstone folder which has an _index.md */}}
+    <div class="project-card">
+      <a href="{{ .RelPermalink }}">
+        <div class="image-container">
+          {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}">
+          {{ end }}
+        </div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.description }}</p>
+      </a>
+    </div>
   {{ end }}
 </section>
