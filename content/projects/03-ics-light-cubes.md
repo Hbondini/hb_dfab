@@ -32,7 +32,7 @@ Defining the scale was critical. The object had to feel substantial enough to be
 
 {{< portfolio_grid >}}
   {{< project_card link="#" title="Size Comparison" image="/images/cubes/size-comparisons.jpg" >}}
-  {{< project_card link="#" title="Early SLA Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
+  {{< project_card link="#" title="Early FDM Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
 {{< /portfolio_grid >}}
 
 ---
@@ -99,3 +99,4 @@ Testing the friction fit and scale of the final assembly.
   {{< project_card link="#" title="Final Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
   {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}
 {{< /portfolio_grid >}}
+
