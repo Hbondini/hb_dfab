@@ -31,7 +31,7 @@ Residential lighting forces a binary choice: high-intensity overhead lighting (s
 Defining the scale was critical. The object had to feel substantial enough to be furniture, but light enough to be portable.
 
 {{< portfolio_grid >}}
-  {{< project_card link="#" title="Size Comparison" image="/images/cubes/size-comparisons.jpg" >}}
+  {{< project_card link="#" title="Size Comparison" image="/images/cubes/size-comparisons.jpg" >}}        
   {{< project_card link="#" title="Early FDM Prototype" image="/images/cubes/3d-printed-light-prototype.jpg" >}}
 {{< /portfolio_grid >}}
 
@@ -64,6 +64,9 @@ I researched architectural panel mounting systems and adapted the geometry of th
 ![Internal Core](/images/cubes/light-internals.jpg)
 *The internal electronics core assembly.*
 
+![Tolerance Testing](/images/cubes/fit-testing.jpg)
+*Tolerance testing the friction fit of the internal chassis.*
+
 ---
 
 ## 5. Manufacturing Process
@@ -87,18 +90,14 @@ The aesthetic required the warmth of natural grain, but the mechanics required t
 Early manufacturing attempts relied on double-sided machining (flipping the wood stock). This resulted in critical failures due to registration errors. I redesigned the part to utilize a **Single-Setup Through-Bore** to guarantee vertical concentricity.
 
 {{< portfolio_grid >}}
-  {{< project_card link="#" title="Grain Fracture Analysis" image="/images/cubes/cube-fail.jpg" >}}
+  {{< project_card link="#" title="Grain Fracture Analysis" image="/images/cubes/cube-fail.jpg" >}}       
   {{< project_card link="#" title="SLA Support Failure" image="/images/cubes/failed-sla.jpg" >}}
 {{< /portfolio_grid >}}
 
 ---
 
 ## 6. Final Validation
-Testing the friction fit and scale of the final assembly.
+Testing the human scale of the finished assembly.
 
-{{< portfolio_grid >}}
-  {{< project_card link="#" title="Final Fit Testing" image="/images/cubes/fit-testing.jpg" >}}
-  {{< project_card link="#" title="Human Scale" image="/images/cubes/me-with-light-project.jpg" >}}
-{{< /portfolio_grid >}}
-
-
+![Human Scale](/images/cubes/me-with-light-project.jpg)
+*Scale comparison of the finished assembly.*
