@@ -8,7 +8,7 @@ description: "Design & Fabrication Portfolio"
 <div class="hero-content">
 <h1 class="hero-title">Advanced Manufacturing & Design</h1>
 <p class="hero-subtitle">
-Bridging the gap between digital design and physical fabrication through high-performance materials and custom-engineered processes.
+Bridging the gap between digital design and physical fabrication through high-performance materials and custom-designed processes.
 </p>
 <div class="hero-socials" style="margin-top: 2rem;">
   <a href="https://www.instagram.com/hb_dfab" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: none; font-size: 1.2rem; opacity: 0.8; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">
@@ -50,3 +50,4 @@ Bridging the gap between digital design and physical fabrication through high-pe
 
 </div>
 </div>
+
